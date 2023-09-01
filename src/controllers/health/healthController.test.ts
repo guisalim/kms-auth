@@ -1,6 +1,6 @@
 import { basename } from "path";
 import HealthController from "./healthController";
-import { getApp } from '@/controllers/_config/tests';
+import { getApp } from '@src/controllers/_config/tests';
 
 describe('[Unit] HealthController', () => {
     test('/', async () => {

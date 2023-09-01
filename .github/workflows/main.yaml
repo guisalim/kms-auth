@@ -16,5 +16,7 @@ jobs:
           node-version: "18.16.x"
       - name: Install dependencies (based on lock file)
         run: npm ci
+      - name: Building application
+        run: npm run build
       - name: Run test
         run: npm test

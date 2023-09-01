@@ -1,6 +1,6 @@
 import { Express } from "express";
 import supertest from "supertest";
-import Application from '@/configuration/application';
+import Application from '@src/configuration/application';
 
 export interface IGetApp {
     app: Express;

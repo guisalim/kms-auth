@@ -13,7 +13,7 @@
     },
     "compilerOptions": {
         "paths": {
-            "@/controllers/_interfaces": [
+            "@src/controllers/_interfaces": [
                 "./src/controllers/_interfaces"
             ]
         }

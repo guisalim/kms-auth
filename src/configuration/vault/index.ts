@@ -1,5 +1,5 @@
 import DopplerSDK from '@dopplerhq/node-sdk'
-import { AppLogger } from '@/configuration/logger';
+import { AppLogger } from '@src/configuration/logger';
 
 export class AppVault {
     private vault: undefined | { [key: string]: any } = undefined

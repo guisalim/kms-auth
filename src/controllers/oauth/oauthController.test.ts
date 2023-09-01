@@ -1,5 +1,5 @@
 import { basename } from "path";
-import { getApp, IGetApp } from '@/controllers/_config/tests';
+import { getApp, IGetApp } from '@src/controllers/_config/tests';
 import Oauth from '../../configuration/oauth';
 
 Oauth.authenticate = jest.fn(async (_req: any, _res: any, next: any) => {

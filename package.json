@@ -8,7 +8,7 @@
     "prestart": "./npm_scripts/swagger.sh",
     "preinstall": "chmod -R u+x ./npm_scripts/",
     "prebuild": "./npm_scripts/swagger.sh",
-    "serve": "node dist/index.js",
+    "serve": "node dist/src/index.js",
     "start": "nodemon",
     "swagger": "./npm_scripts/swagger.sh",
     "test": "./npm_scripts/test.sh"
@@ -43,10 +43,15 @@
     "dotenv": "^16.3.1",
     "express-session": "^1.17.3",
     "helmet": "^7.0.0",
+    "module-alias": "^2.2.3",
     "morgan": "^1.10.0",
     "passport": "^0.6.0",
     "passport-github2": "^0.1.12",
     "tsoa": "^5.1.1",
     "winston": "^3.10.0"
+  },
+  "_moduleAliases": {
+    "@swagger": "./dist/build",
+    "@src": "./dist/src"
   }
 }

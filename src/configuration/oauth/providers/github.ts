@@ -1,4 +1,4 @@
-import { AppLogger } from '@/configuration/logger';
+import { AppLogger } from '@src/configuration/logger';
 import { OauthProvider, IOauthProvider, TId } from './provider';
 import { Strategy } from 'passport-github2';
 

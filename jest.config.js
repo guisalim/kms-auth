@@ -4,7 +4,8 @@ module.exports = {
   testEnvironment: 'node',
   moduleNameMapper: {
     "^@swagger/(.*)$": "<rootDir>/build/$1",
-    "^@/(.*)$": "<rootDir>/src/$1"
+    "^@src/(.*)$": "<rootDir>/src/$1"
   },
+  modulePathIgnorePatterns: ["<rootDir>/dist/"],
   setupFiles: ["dotenv/config"],
 };

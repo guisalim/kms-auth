@@ -10,21 +10,27 @@
         "forceConsistentCasingInFileNames": true,
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
-        "baseUrl": "./src",
+        "baseUrl": ".",
         "paths": {
-            "@swagger/*": [
-                "../build/*"
+            "tsoa": [
+                "node_modules/tsoa/dist"
             ],
-            "@/*": [
-                "./*"
+            "tsoa/": [
+                "node_modules/tsoa/dist/"
+            ],
+            "@swagger/*": [
+                "./build/*"
+            ],
+            "@src/*": [
+                "./src/*"
             ]
         },
     },
     "include": [
-        "src/**/*"
+        "./src/**/*"
     ],
     "exclude": [
-        "node_modules"
+        "node_modules",
     ],
     "ts-node": {
         "esm": true,

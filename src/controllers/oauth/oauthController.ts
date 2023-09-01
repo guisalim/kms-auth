@@ -1,5 +1,5 @@
 import { Controller, Get, Route, Middlewares } from "tsoa";
-import Oauth from '@/configuration/oauth';
+import Oauth from '@src/configuration/oauth';
 
 @Route('oauth')
 export class OauthController extends Controller {

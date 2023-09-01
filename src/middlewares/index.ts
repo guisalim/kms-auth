@@ -5,8 +5,8 @@ import bodyParser from "body-parser";
 
 import { Express } from 'express';
 import expressSession from 'express-session';
-import Oauth from '@/configuration/oauth';
-import { AppLogger } from '@/configuration/logger';
+import Oauth from '@src/configuration/oauth';
+import { AppLogger } from '@src/configuration/logger';
 
 export class AppMiddlewares {
     apply(app: Express) {

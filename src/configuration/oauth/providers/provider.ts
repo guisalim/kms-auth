@@ -1,5 +1,5 @@
 import { AuthenticateOptions } from 'passport';
-import { AppLogger } from '@/configuration/logger';
+import { AppLogger } from '@src/configuration/logger';
 import oauth2 = require('passport-oauth2');
 
 export interface IOauthProvider {

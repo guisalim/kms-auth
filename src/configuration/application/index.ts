@@ -1,9 +1,9 @@
 import dotenv from 'dotenv';
 import express, { Express } from 'express';
-import AppControllers from "@/controllers";
-import { AppMiddlewares } from '@/middlewares';
-import { AppLogger } from '@/configuration/logger';
-import { AppVault } from '@/configuration/vault';
+import AppControllers from "@src/controllers";
+import { AppMiddlewares } from '@src/middlewares';
+import { AppLogger } from '@src/configuration/logger';
+import { AppVault } from '@src/configuration/vault';
 import { Server } from 'node:http';
 
 interface IApplicationConfig {

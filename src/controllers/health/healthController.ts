@@ -1,5 +1,5 @@
 import { Controller, Get, Route, SuccessResponse } from "tsoa";
-import { IHealth_GetHealth_Response } from '@/controllers/_interfaces';
+import { IHealth_GetHealth_Response } from '@src/controllers/_interfaces';
 
 @Route('health')
 export class HealthController extends Controller {
