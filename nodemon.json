@@ -1,0 +1,12 @@
+{
+    "watch": [
+        "src",
+        "build"
+    ],
+    "ignore": [
+        "*.test.ts",
+        "**/fixtures/**"
+    ],
+    "ext": "ts",
+    "exec": "ts-node src/index.ts"
+}
